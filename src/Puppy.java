@@ -29,5 +29,7 @@ public class Puppy{
 
       /* Access instance variable as well */
       System.out.println("Variable Value: " + MyPuppy.PuppyAge );
+      System.out.println("Guy is GREAT!!!!" );
+     
    }
 }
