@@ -6,14 +6,14 @@ public class Puppy{
    public Puppy(String name) {
       // This constructor has one parameter, name.
       System.out.println("Puppy's Name is: " + name ); 
-   }
+      }
    
    public void setAge(int age) {
        PuppyAge = age;
    }
 
    public int getAge( ) {
-       System.out.println("Puppy's age is :" + PuppyAge ); 
+       System.out.println("Puppy's age is: " + PuppyAge ); 
        return PuppyAge;
    }
 
@@ -29,7 +29,7 @@ public class Puppy{
       MyPuppy.getAge( );
 
       /* Access instance variable as well */
-      System.out.println("Variable Value :" + MyPuppy.puppyAge ); 
+      System.out.println("Variable Value: " + MyPuppy.PuppyAge ); 
 
    }
 }
