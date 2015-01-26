@@ -17,7 +17,6 @@ public class Puppy{
        return PuppyAge;
    }
 
-   
    public static void main(String []args) {
       // Create object myPuppy
       Puppy MyPuppy = new Puppy("Tommy");
@@ -29,7 +28,6 @@ public class Puppy{
       MyPuppy.getAge( );
 
       /* Access instance variable as well */
-      System.out.println("Variable Value: " + MyPuppy.PuppyAge ); 
-
+      System.out.println("Variable Value: " + MyPuppy.PuppyAge );
    }
 }
