@@ -16,12 +16,14 @@ public class MortgageText {
         double payment;
         NumberFormat currency = NumberFormat.getCurrencyInstance();
 
-        System.out.print("How much are you borrowing?            ");
+        System.out.print("How much are you borrowing?           ");
         principal = Double.parseDouble(keyboard.readLine());
-        System.out.print("What's the interest rate?              ");
+        System.out.println();
+		System.out.print("What's the interest rate?             ");
         ratePercent = Double.parseDouble(keyboard.readLine());
         rate = ratePercent / 100.00;
-        System.out.print("How many years are you taking to pay?  ");
+        System.out.println();
+		System.out.print("How many years are you taking to pay? ");
         years = Integer.parseInt(keyboard.readLine());
         System.out.println("------------------------------");
 
